@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(deliveryReceipts));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnSerach = new System.Windows.Forms.Button();
             this.SearchingForPiece = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.lblPageInfo = new System.Windows.Forms.Label();
@@ -38,13 +39,13 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnSerach = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.btnSerach);
             this.groupBox1.Controls.Add(this.SearchingForPiece);
             this.groupBox1.Controls.Add(this.label4);
@@ -58,8 +59,26 @@
             this.groupBox1.Text = "للبحث السريع عن طريق رقم السند أو رقم الهاتف || For quick searching by document n" +
     "umber or phone number :";
             // 
+            // btnSerach
+            // 
+            this.btnSerach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSerach.BackColor = System.Drawing.Color.White;
+            this.btnSerach.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSerach.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSerach.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSerach.Image = ((System.Drawing.Image)(resources.GetObject("btnSerach.Image")));
+            this.btnSerach.Location = new System.Drawing.Point(733, 24);
+            this.btnSerach.Name = "btnSerach";
+            this.btnSerach.Size = new System.Drawing.Size(75, 67);
+            this.btnSerach.TabIndex = 176;
+            this.btnSerach.UseVisualStyleBackColor = false;
+            this.btnSerach.Click += new System.EventHandler(this.btnSerach_Click);
+            // 
             // SearchingForPiece
             // 
+            this.SearchingForPiece.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.SearchingForPiece.BackColor = System.Drawing.Color.White;
             this.SearchingForPiece.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.SearchingForPiece.Location = new System.Drawing.Point(824, 42);
@@ -69,6 +88,8 @@
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -115,6 +136,8 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.Red;
             this.panel1.Location = new System.Drawing.Point(16, 516);
             this.panel1.Name = "panel1";
@@ -134,25 +157,14 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.Red;
             this.panel2.Location = new System.Drawing.Point(16, 16);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1233, 3);
             this.panel2.TabIndex = 181;
-            // 
-            // btnSerach
-            // 
-            this.btnSerach.BackColor = System.Drawing.Color.White;
-            this.btnSerach.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSerach.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSerach.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnSerach.Image = ((System.Drawing.Image)(resources.GetObject("btnSerach.Image")));
-            this.btnSerach.Location = new System.Drawing.Point(733, 24);
-            this.btnSerach.Name = "btnSerach";
-            this.btnSerach.Size = new System.Drawing.Size(75, 67);
-            this.btnSerach.TabIndex = 176;
-            this.btnSerach.UseVisualStyleBackColor = false;
-            this.btnSerach.Click += new System.EventHandler(this.btnSerach_Click);
             // 
             // deliveryReceipts
             // 

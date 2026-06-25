@@ -205,7 +205,7 @@
             // الجردToolStripMenuItem
             // 
             this.الجردToolStripMenuItem.Name = "الجردToolStripMenuItem";
-            this.الجردToolStripMenuItem.Size = new System.Drawing.Size(181, 28);
+            this.الجردToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
             this.الجردToolStripMenuItem.Text = "جرد القطعة ";
             this.الجردToolStripMenuItem.Click += new System.EventHandler(this.الجردToolStripMenuItem_Click);
             // 
@@ -226,42 +226,42 @@
             // الأجهزةالمستلمةToolStripMenuItem
             // 
             this.الأجهزةالمستلمةToolStripMenuItem.Name = "الأجهزةالمستلمةToolStripMenuItem";
-            this.الأجهزةالمستلمةToolStripMenuItem.Size = new System.Drawing.Size(220, 28);
+            this.الأجهزةالمستلمةToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
             this.الأجهزةالمستلمةToolStripMenuItem.Text = "الأجهزة المستلمة";
             this.الأجهزةالمستلمةToolStripMenuItem.Click += new System.EventHandler(this.الأجهزةالمستلمةToolStripMenuItem_Click);
             // 
             // الأجهزةالمسلمةToolStripMenuItem
             // 
             this.الأجهزةالمسلمةToolStripMenuItem.Name = "الأجهزةالمسلمةToolStripMenuItem";
-            this.الأجهزةالمسلمةToolStripMenuItem.Size = new System.Drawing.Size(220, 28);
+            this.الأجهزةالمسلمةToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
             this.الأجهزةالمسلمةToolStripMenuItem.Text = "الأجهزة المسلمة";
             this.الأجهزةالمسلمةToolStripMenuItem.Click += new System.EventHandler(this.الأجهزةالمسلمةToolStripMenuItem_Click);
             // 
             // تقريرالمخزونToolStripMenuItem
             // 
             this.تقريرالمخزونToolStripMenuItem.Name = "تقريرالمخزونToolStripMenuItem";
-            this.تقريرالمخزونToolStripMenuItem.Size = new System.Drawing.Size(220, 28);
+            this.تقريرالمخزونToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
             this.تقريرالمخزونToolStripMenuItem.Text = "تقرير المخزون";
             this.تقريرالمخزونToolStripMenuItem.Click += new System.EventHandler(this.تقريرالمخزونToolStripMenuItem_Click);
             // 
             // تقريرالموظفينToolStripMenuItem
             // 
             this.تقريرالموظفينToolStripMenuItem.Name = "تقريرالموظفينToolStripMenuItem";
-            this.تقريرالموظفينToolStripMenuItem.Size = new System.Drawing.Size(220, 28);
+            this.تقريرالموظفينToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
             this.تقريرالموظفينToolStripMenuItem.Text = "تقرير الموظفين";
             this.تقريرالموظفينToolStripMenuItem.Click += new System.EventHandler(this.تقريرالموظفينToolStripMenuItem_Click);
             // 
             // تقريرالشكاوىToolStripMenuItem
             // 
             this.تقريرالشكاوىToolStripMenuItem.Name = "تقريرالشكاوىToolStripMenuItem";
-            this.تقريرالشكاوىToolStripMenuItem.Size = new System.Drawing.Size(220, 28);
+            this.تقريرالشكاوىToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
             this.تقريرالشكاوىToolStripMenuItem.Text = "تقرير الشكاوى";
             this.تقريرالشكاوىToolStripMenuItem.Click += new System.EventHandler(this.تقريرالشكاوىToolStripMenuItem_Click);
             // 
             // تقريرعميلمفصلToolStripMenuItem
             // 
             this.تقريرعميلمفصلToolStripMenuItem.Name = "تقريرعميلمفصلToolStripMenuItem";
-            this.تقريرعميلمفصلToolStripMenuItem.Size = new System.Drawing.Size(220, 28);
+            this.تقريرعميلمفصلToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
             this.تقريرعميلمفصلToolStripMenuItem.Text = "تقرير عميل مفصل";
             this.تقريرعميلمفصلToolStripMenuItem.Click += new System.EventHandler(this.تقريرعميلمفصلToolStripMenuItem_Click);
             // 
@@ -482,18 +482,20 @@
             // 
             // statisticsPanel
             // 
-            this.statisticsPanel.Location = new System.Drawing.Point(2, 98);
+            this.statisticsPanel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.statisticsPanel.Location = new System.Drawing.Point(0, 52);
             this.statisticsPanel.Name = "statisticsPanel";
-            this.statisticsPanel.Size = new System.Drawing.Size(196, 691);
+            this.statisticsPanel.Size = new System.Drawing.Size(196, 739);
             this.statisticsPanel.TabIndex = 2;
             // 
             // TabBarFlowLPanel
             // 
             this.TabBarFlowLPanel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TabBarFlowLPanel.Location = new System.Drawing.Point(2, 55);
+            this.TabBarFlowLPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.TabBarFlowLPanel.Location = new System.Drawing.Point(196, 52);
             this.TabBarFlowLPanel.Name = "TabBarFlowLPanel";
             this.TabBarFlowLPanel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.TabBarFlowLPanel.Size = new System.Drawing.Size(1464, 40);
+            this.TabBarFlowLPanel.Size = new System.Drawing.Size(1272, 40);
             this.TabBarFlowLPanel.TabIndex = 5;
             // 
             // panelMain
@@ -507,11 +509,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1264, 691);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

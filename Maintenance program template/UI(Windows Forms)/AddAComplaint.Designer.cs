@@ -42,11 +42,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.dtpComplaintDate = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
-            this.cmbComplaintStatus = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.txtProblemDescription = new System.Windows.Forms.TextBox();
+            this.cmbComplaintStatus = new System.Windows.Forms.ComboBox();
             this.cmbEmployee = new System.Windows.Forms.ComboBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.txtProblemDescription = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.cmbProblemType = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
@@ -72,6 +72,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.txtSerialNumber);
             this.groupBox1.Controls.Add(this.txtRegion);
@@ -92,6 +93,7 @@
             // 
             // label6
             // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -104,6 +106,7 @@
             // 
             // txtSerialNumber
             // 
+            this.txtSerialNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSerialNumber.BackColor = System.Drawing.Color.White;
             this.txtSerialNumber.Location = new System.Drawing.Point(25, 147);
             this.txtSerialNumber.Name = "txtSerialNumber";
@@ -112,6 +115,7 @@
             // 
             // txtRegion
             // 
+            this.txtRegion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtRegion.BackColor = System.Drawing.Color.White;
             this.txtRegion.Location = new System.Drawing.Point(25, 114);
             this.txtRegion.Name = "txtRegion";
@@ -120,6 +124,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -132,6 +137,7 @@
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -144,6 +150,7 @@
             // 
             // txtPhoneNumber
             // 
+            this.txtPhoneNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPhoneNumber.BackColor = System.Drawing.Color.White;
             this.txtPhoneNumber.Location = new System.Drawing.Point(25, 80);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
@@ -152,6 +159,7 @@
             // 
             // txtCustomerName
             // 
+            this.txtCustomerName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCustomerName.BackColor = System.Drawing.Color.White;
             this.txtCustomerName.Location = new System.Drawing.Point(25, 46);
             this.txtCustomerName.Name = "txtCustomerName";
@@ -160,6 +168,7 @@
             // 
             // label5
             // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -223,6 +232,27 @@
             this.label8.TabIndex = 172;
             this.label8.Text = "حالة الشكؤى :";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label7.Location = new System.Drawing.Point(368, 84);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(108, 20);
+            this.label7.TabIndex = 170;
+            this.label7.Text = "أختيار الموظف :";
+            // 
+            // txtProblemDescription
+            // 
+            this.txtProblemDescription.BackColor = System.Drawing.Color.White;
+            this.txtProblemDescription.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.txtProblemDescription.Location = new System.Drawing.Point(55, 114);
+            this.txtProblemDescription.Name = "txtProblemDescription";
+            this.txtProblemDescription.Size = new System.Drawing.Size(309, 27);
+            this.txtProblemDescription.TabIndex = 161;
+            // 
             // cmbComplaintStatus
             // 
             this.cmbComplaintStatus.BackColor = System.Drawing.Color.White;
@@ -237,18 +267,6 @@
             this.cmbComplaintStatus.Name = "cmbComplaintStatus";
             this.cmbComplaintStatus.Size = new System.Drawing.Size(309, 28);
             this.cmbComplaintStatus.TabIndex = 173;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label7.Location = new System.Drawing.Point(368, 84);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(108, 20);
-            this.label7.TabIndex = 170;
-            this.label7.Text = "أختيار الموظف :";
             // 
             // cmbEmployee
             // 
@@ -273,17 +291,9 @@
             this.label21.TabIndex = 160;
             this.label21.Text = "وصف المشكلة :";
             // 
-            // txtProblemDescription
-            // 
-            this.txtProblemDescription.BackColor = System.Drawing.Color.White;
-            this.txtProblemDescription.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.txtProblemDescription.Location = new System.Drawing.Point(55, 114);
-            this.txtProblemDescription.Name = "txtProblemDescription";
-            this.txtProblemDescription.Size = new System.Drawing.Size(309, 27);
-            this.txtProblemDescription.TabIndex = 161;
-            // 
             // groupBox3
             // 
+            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.Controls.Add(this.cmbProblemType);
             this.groupBox3.Controls.Add(this.label20);
             this.groupBox3.Controls.Add(this.cmbProduct);
@@ -301,6 +311,7 @@
             // 
             // cmbProblemType
             // 
+            this.cmbProblemType.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbProblemType.BackColor = System.Drawing.Color.White;
             this.cmbProblemType.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.cmbProblemType.ForeColor = System.Drawing.Color.Black;
@@ -317,6 +328,7 @@
             // 
             // label20
             // 
+            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.White;
             this.label20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -329,6 +341,7 @@
             // 
             // cmbProduct
             // 
+            this.cmbProduct.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbProduct.BackColor = System.Drawing.Color.White;
             this.cmbProduct.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.cmbProduct.ForeColor = System.Drawing.Color.Black;
@@ -340,6 +353,7 @@
             // 
             // label19
             // 
+            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.White;
             this.label19.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -352,6 +366,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.btnSerach);
             this.groupBox2.Controls.Add(this.SearchingForPiece);
             this.groupBox2.Controls.Add(this.label3);
@@ -366,6 +381,7 @@
             // 
             // btnSerach
             // 
+            this.btnSerach.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSerach.BackColor = System.Drawing.Color.White;
             this.btnSerach.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSerach.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -379,6 +395,7 @@
             // 
             // SearchingForPiece
             // 
+            this.SearchingForPiece.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SearchingForPiece.BackColor = System.Drawing.Color.White;
             this.SearchingForPiece.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.SearchingForPiece.Location = new System.Drawing.Point(86, 32);
@@ -388,6 +405,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -400,6 +418,7 @@
             // 
             // deleteBtn
             // 
+            this.deleteBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.deleteBtn.BackColor = System.Drawing.Color.White;
             this.deleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.deleteBtn.Enabled = false;
@@ -414,6 +433,7 @@
             // 
             // editBtn
             // 
+            this.editBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.editBtn.BackColor = System.Drawing.Color.White;
             this.editBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.editBtn.Enabled = false;
@@ -428,6 +448,7 @@
             // 
             // btnAddComplaint
             // 
+            this.btnAddComplaint.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnAddComplaint.BackColor = System.Drawing.Color.Green;
             this.btnAddComplaint.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAddComplaint.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -442,6 +463,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(67, 252);
             this.pictureBox1.Name = "pictureBox1";
@@ -452,6 +474,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(-24, 404);
@@ -464,6 +487,7 @@
             // 
             // PrintBtnComplaint
             // 
+            this.PrintBtnComplaint.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.PrintBtnComplaint.BackColor = System.Drawing.Color.White;
             this.PrintBtnComplaint.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PrintBtnComplaint.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

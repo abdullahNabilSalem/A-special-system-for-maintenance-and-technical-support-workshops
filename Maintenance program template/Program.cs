@@ -21,7 +21,7 @@ namespace Maintenance_program_template
             }
 
             // مهم جداً: تحديد الترخيص قبل أي استخدام
-            QuestPDF.Settings.License = LicenseType.Community;
+            //QuestPDF.Settings.License = LicenseType.Community;
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

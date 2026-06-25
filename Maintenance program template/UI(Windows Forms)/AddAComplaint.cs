@@ -17,6 +17,7 @@ namespace Maintenance_program_template.UI_Windows_Forms_
     {
         ComplaintBLL bll = new ComplaintBLL();
         private ComplaintPdfModel lastComplaint;
+        int m = 0;
         public AddAComplaint()
         {
             InitializeComponent();
@@ -25,6 +26,7 @@ namespace Maintenance_program_template.UI_Windows_Forms_
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             this.Hide();
+
         }
 
         private void btnAddComplaint_Click(object sender, EventArgs e)
